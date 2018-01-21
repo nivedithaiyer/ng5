@@ -1,0 +1,14 @@
+<p>
+  This is what I'm all about. <br><br>
+</p>
+
+<ul>
+  <li *ngFor="let goal of goals">
+    {{ goal }}
+  </li>
+</ul>
+
+<p>
+  <br><br>
+  <input type="button" class="btn" name="back" value="Back" (click) = "sendMeHome()"/>
+</p>
